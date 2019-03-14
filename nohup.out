@@ -1,0 +1,34 @@
+mars 14, 2019 4:25:06 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFOS: Using /home/ec2-user/agent/remoting as a remoting work directory
+Both error and output logs will be printed to /home/ec2-user/agent/remoting
+mars 14, 2019 4:25:06 PM hudson.remoting.jnlp.Main createEngine
+INFOS: Setting up agent: agent1
+mars 14, 2019 4:25:06 PM hudson.remoting.jnlp.Main$CuiListener <init>
+INFOS: Jenkins agent is running in headless mode.
+mars 14, 2019 4:25:06 PM hudson.remoting.Engine startEngine
+INFOS: Using Remoting version: 3.27
+mars 14, 2019 4:25:06 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFOS: Using /home/ec2-user/agent/remoting as a remoting work directory
+mars 14, 2019 4:25:06 PM hudson.remoting.jnlp.Main$CuiListener status
+INFOS: Locating server among [http://18.202.223.78:8080/]
+mars 14, 2019 4:25:06 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFOS: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+mars 14, 2019 4:25:06 PM hudson.remoting.jnlp.Main$CuiListener status
+INFOS: Agent discovery successful
+  Agent address: 18.202.223.78
+  Agent port:    50000
+  Identity:      b1:b9:43:10:a8:e9:e4:87:a1:f2:7e:65:12:71:5d:45
+mars 14, 2019 4:25:06 PM hudson.remoting.jnlp.Main$CuiListener status
+INFOS: Handshaking
+mars 14, 2019 4:25:06 PM hudson.remoting.jnlp.Main$CuiListener status
+INFOS: Connecting to 18.202.223.78:50000
+mars 14, 2019 4:25:06 PM hudson.remoting.jnlp.Main$CuiListener status
+INFOS: Trying protocol: JNLP4-connect
+mars 14, 2019 4:25:07 PM hudson.remoting.jnlp.Main$CuiListener status
+INFOS: Remote identity confirmed: b1:b9:43:10:a8:e9:e4:87:a1:f2:7e:65:12:71:5d:45
+mars 14, 2019 4:25:08 PM hudson.remoting.jnlp.Main$CuiListener status
+INFOS: Connected
+mars 14, 2019 4:33:23 PM org.jenkinsci.remoting.util.AnonymousClassWarnings warn
+AVERTISSEMENT: Attempt to (de-)serialize anonymous class org.jenkinsci.plugins.gitclient.Git$1; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
+mars 14, 2019 4:33:26 PM org.jenkinsci.remoting.util.AnonymousClassWarnings warn
+AVERTISSEMENT: Attempt to (de-)serialize anonymous class org.jenkinsci.plugins.gitclient.RemoteGitImpl$CommandInvocationHandler$1; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
